@@ -11,7 +11,7 @@ Please cite the following paper in your publications if it helps your research:
       Year = {2016}
     }
 
-##### Acknowledgment: 
+#### Acknowledgment: 
 This code is based on Caffe with new implemented pooling layers.
 
     @misc{Jia13caffe,

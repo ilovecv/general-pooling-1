@@ -8,7 +8,7 @@ We seek to improve deep neural networks by generalizing the pooling operations t
 A quick demo of running the proposed pooling functions can be found at "models/generaling_pooling_AlexNet_example/". In this example, we adopt AlexNet model and simply replace the first max pooling with the proposed tree pooling (2 leaf nodes and 1 internal node) and replace the second and third max pooling with gated max-average pooling (1 gating mask each). After setting up the training and testing files, you can run the script "train_caffenet.sh" to start the training. Please also see "train_val.prototxt" file for the usage of the pooling layers and see "general_pooling.log" for the training process.
 
 #### Transplant:
-If you have different Caffe version than this repo and would like to try out the proposed pooling functions, you can go to "src/caffe/layers/" can transplant the following code to your repo:
+If you have different Caffe version than this repo and would like to try out the proposed pooling functions, you can go to "src/caffe/layers/" can transplant the following code to your repo and follow this [Wiki](https://github.com/BVLC/caffe/wiki/Development) page to setup these layers.
 - treepool_max_ave.cpp	(gated max-average pooling)
 - treepool_max_ave.cu
 - treepool_kernel_1layer.cpp (2 level tree pooling)

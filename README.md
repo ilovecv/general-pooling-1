@@ -9,13 +9,13 @@ A quick demo of running the proposed pooling functions can be found at "models/g
 
 #### Transplant:
 If you have different Caffe version than this repo and would like to try out the proposed pooling functions, you can go to "src/caffe/layers/" can transplant the following code to your repo:
-
-- treepool_kernel_1layer.cpp	
-- treepool_kernel_1layer.cu	
-- treepool_kernel_2layer.cpp	
-- treepool_kernel_2layer.cu	
-- treepool_max_ave.cpp	
+- treepool_max_ave.cpp	(gated max-average pooling)
 - treepool_max_ave.cu
+- treepool_kernel_1layer.cpp (2 level tree pooling)
+- treepool_kernel_1layer.cu	
+- treepool_kernel_2layer.cpp (3 level tree pooling)	
+- treepool_kernel_2layer.cu	
+
 
 Please cite the following paper if it helps your research:
 

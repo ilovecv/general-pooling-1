@@ -20,10 +20,10 @@ If you have different Caffe version than this repo and would like to try out the
 Please cite the following paper if it helps your research:
 
     @inproceedings{lee2016generalizing,
-      Author = {Lee, Chen-Yu and Gallagher, Patrick and Tu, Zhuowen},
+      author = {Lee, Chen-Yu and Gallagher, Patrick and Tu, Zhuowen},
       booktitle = {International Conference on Artificial Intelligence and Statistics (AISTATS)},
-      Title = {Generalizing Pooling Functions in Convolutional Neural Networks: Mixed, Gated, and Tree},
-      Year = {2016}
+      title = {Generalizing Pooling Functions in Convolutional Neural Networks: Mixed, Gated, and Tree},
+      year = {2016}
     }
 
 #### Acknowledgment: 

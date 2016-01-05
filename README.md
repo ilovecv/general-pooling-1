@@ -13,13 +13,6 @@ Check out the [project site](http://caffe.berkeleyvision.org) for all the detail
 - [BVLC reference models](http://caffe.berkeleyvision.org/model_zoo.html) and the [community model zoo](https://github.com/BVLC/caffe/wiki/Model-Zoo)
 - [Installation instructions](http://caffe.berkeleyvision.org/installation.html)
 
-and step-by-step examples.
-
-[![Join the chat at https://gitter.im/BVLC/caffe](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/BVLC/caffe?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-Please join the [caffe-users group](https://groups.google.com/forum/#!forum/caffe-users) or [gitter chat](https://gitter.im/BVLC/caffe) to ask questions and talk about methods and models.
-Framework development discussions and thorough bug reports are collected on [Issues](https://github.com/BVLC/caffe/issues).
-
 Happy brewing!
 
 ## License and Citation
@@ -30,9 +23,9 @@ The BVLC reference models are released for unrestricted use.
 Please cite Caffe in your publications if it helps your research:
 
     @article{jia2014caffe,
-      Author = {Jia, Yangqing and Shelhamer, Evan and Donahue, Jeff and Karayev, Sergey and Long, Jonathan and Girshick, Ross and Guadarrama, Sergio and Darrell, Trevor},
-      Journal = {arXiv preprint arXiv:1408.5093},
-      Title = {Caffe: Convolutional Architecture for Fast Feature Embedding},
-      Year = {2014}
+      Author = {Lee, Chen-Yu and Gallagher, Patrick and Tu, Zhuowen},
+      Journal = {International Conference on Artificial Intelligence and Statistics (AISTATS)},
+      Title = {Generalizing Pooling Functions in Convolutional Neural Networks: Mixed, Gated, and Tree},
+      Year = {2016}
     }
 # general-pooling

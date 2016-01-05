@@ -1,6 +1,6 @@
 #### Generalizing Pooling Functions in Convolutional Neural Networks: Mixed, Gated, and Tree
 
-<img align="left" src="http://pages.ucsd.edu/~chl260/fig/gpool.jpg" width="300">
+<img align="left" src="http://pages.ucsd.edu/~chl260/fig/gpool.jpg" width="250">
 
 We seek to improve deep neural networks by generalizing the pooling operations that play a central role in current architectures. We pursue a careful exploration of approaches to allow pooling to learn and to adapt to complex and variable patterns. The two primary directions lie in (1) learning a pooling function via combining of max and average pooling, and (2) learning a pooling function in the form of a tree-structured fusion of pooling filters that are themselves learned. In our experiments every generalized pooling operation we explore improves performance when used in place of average or max pooling. We experimentally demonstrate that the proposed pooling operations provide a boost in invariance properties relative to conventional pooling and set the state of the art on several widely adopted benchmark datasets. For detailed algorithm and experiment results please see our AISTATS 2016 [paper](http://arxiv.org/abs/1509.08985).
 

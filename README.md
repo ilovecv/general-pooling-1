@@ -16,6 +16,7 @@ If you have different Caffe version than this repo and would like to try out the
 - treepool_kernel_2layer.cpp (3 level tree pooling)	
 - treepool_kernel_2layer.cu	
 
+These files show a basic implementation of the proposed pooling layers. Further speed and memory optimization can be done using cuDNN library or some engineering; see the file "treepool_max_ave_efficient.c*", for an example.
 
 Please cite the following paper if it helps your research:
 
